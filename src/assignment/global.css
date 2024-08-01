@@ -1,0 +1,98 @@
+.dashboard {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    font-family: 'Arial', sans-serif;
+    background-color: #f5f5f5;
+  }
+  
+  .sidebar {
+    width: 200px;
+    background-color: #fff;
+    padding: 20px;
+    border-right: 1px solid #ddd;
+  }
+  
+  .sidebar ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .sidebar li {
+    margin-bottom: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .sidebar li:hover {
+    background-color: #b968d0;
+  }
+  
+  .content {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .chart {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .chart h2 {
+    margin-top: 0;
+  }
+  
+  .recharts-wrapper {
+    width: 100%;
+    height: 300px;
+  }
+  
+  .recharts-surface {
+    background-color: #fff;
+  }
+  
+  .recharts-xAxis text {
+    font-size: 12px;
+  }
+  
+  .recharts-yAxis text {
+    font-size: 12px;
+  }
+  
+  .recharts-tooltip-wrapper {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+  }
+  
+  .recharts-legend-wrapper {
+    margin-top: 10px;
+  }
+  
+  .recharts-legend-item {
+    margin-right: 10px;
+  }
+  
+  .recharts-legend-item-text {
+    font-size: 12px;
+  }
+  
+  .recharts-legend-item-mark {
+    width: 10px;
+    height: 10px;
+    margin-right: 5px;
+    border-radius: 50%;
+  }
+  
+  .recharts-pie-label {
+    font-size: 12px;
+  }
+  
+  .recharts-pie-label-value {
+    font-size: 16px;
+    font-weight: bold;
+  }
